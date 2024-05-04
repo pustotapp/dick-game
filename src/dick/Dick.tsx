@@ -50,7 +50,7 @@ const Stem = ({
   onStart,
   onEnd
 }: any) => {
-  const [color, setColor] = useState('#FFA17AFF');
+  const [color, /*setColor*/] = useState('#FFA17AFF');
 
   return (
     <path
@@ -95,8 +95,8 @@ const Reward = () => {
   );
 };
 
-export const Dick = (props: any) => {
-  const [isReady, setIsReady] = useState(true);
+export const Dick = (/*props: any*/) => {
+  // const [isReady, setIsReady] = useState(true);
   const [frictions, setFrictions] = useState<Area[]>([]);
   const [currentFrictionArea, setCurrentFrictionArea] = useState<Area | null>(null);
   const [isStarted, setIsStarted] = useState(false);
