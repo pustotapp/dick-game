@@ -42,6 +42,9 @@ const Head = ({
       onMouseMove={onMove}
       onMouseDown={onStart}
       onMouseUp={onEnd}
+      onTouchStart={onStart}
+      onTouchEnd={onEnd}
+      onTouchMove={onMove}
     />);
 };
 
@@ -71,6 +74,9 @@ const Stem = ({
       onMouseMove={onMove}
       onMouseDownCapture={onStart}
       onMouseUpCapture={onEnd}
+      onTouchStart={onStart}
+      onTouchEnd={onEnd}
+      onTouchMove={onMove}
     />
   );
 };
