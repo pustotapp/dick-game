@@ -2,6 +2,7 @@
   "name": "zalupa",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pustotapp.github.io/dick-game",
   "dependencies": {
     "@react-spring/web": "^9.7.3",
     "@testing-library/jest-dom": "^5.17.0",
